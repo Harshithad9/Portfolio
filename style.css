@@ -1,0 +1,480 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+/* Body and Main Container */
+body {
+    background-color: #f5f5f5;
+    color: #333;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+/* Header */
+header {
+    background-color: #0f2862;
+    color: white;
+    padding: 20px 0;
+}
+
+header .logo {
+    font-size: 28px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+}
+
+header nav ul li {
+    margin-left: 30px;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+header nav ul li a:hover {
+    color: whitesmoke;
+    background: transparent;
+}
+
+/* Home Section */
+.home {
+    background-color: #0f2862;
+    color: white;
+    padding: 80px 0;
+    text-align: center;
+}
+
+.home h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.home p {
+    font-size: 20px;
+}
+
+.home-sci {
+    margin: 24px 0 40px;
+}
+
+.home-sci a {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    background: transparent;
+    border: 2px solid #fff;
+    border-radius: 50%;
+    font-size: 20px;
+    color: #00abf0;
+    text-decoration: none;
+    margin-left: 12px;
+    transition: 0.5s;
+}
+
+.home-sci a:hover {
+    background: #00abf0;
+    color: #fff;
+    border-color: #00abf0;
+    box-shadow: 0 0 10px #00abf0;
+}
+
+.download-cv {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.download-cv .btn {
+    display: inline-flex;
+    padding: 10px 20px;
+    background-color: transparent;
+    color: #00abf0;
+    border: 2px solid #fff;
+    border-radius: 30px;
+    text-decoration: none;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+.download-cv .btn:hover {
+    background: #00abf0;
+    color: #fff;
+    border-color: #00abf0;
+    box-shadow: 0 0 10px #00abf0;
+}
+
+/* About Section */
+.about {
+    background-color: #ffffff;
+    color: #0f2862;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.about h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.about p {
+    font-size: 18px;
+    line-height: 1.6;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+/* Skills Section */
+.skills {
+    background-color: #ffffff;
+    color: #0f2862;
+    padding: 50px 0;
+}
+
+.skills h2 {
+    font-size: 36px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.skill {
+    background-color: #f5f5f5;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.skill h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #0f2862;
+}
+
+.skill p {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #555;
+}
+
+.skill-buttons {
+    margin-top: 15px;
+    text-align: center;
+}
+
+.skill-buttons .btn {
+    display: inline-block;
+    text-decoration: none;
+    background: #0f2862;
+    color: #00abf0;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 15px;
+    margin-right: 10px;
+    transition: background-color 0.3s ease;
+}
+
+.skill-buttons .btn:hover {
+    background-color: #00abf0;
+    color: #fff;
+}
+
+/* Soft Skills Section */
+.soft-skills {
+    background-color: #f9f9f9; /* Light background */
+    padding: 50px 0;
+}
+
+.soft-skills .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.soft-skills h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.soft-skills ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.soft-skills ul li {
+    font-size: 1.2rem;
+    margin: 10px 0;
+    color: #666;
+}
+
+.soft-skills ul li:before {
+    content: '✔'; /* Check mark symbol */
+    margin-right: 10px;
+    color: #4CAF50; /* Green color */
+}
+
+.soft-skills ul li:hover {
+    color: #000;
+    cursor: pointer;
+}
+
+
+/* Projects Section */
+.projects {
+    background-color: #ffffff;
+    color: #0f2862;
+    padding: 50px 0;
+}
+
+.projects h2 {
+    font-size: 36px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.project {
+    background-color: #f5f5f5;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.project h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #0f2862;
+}
+
+.project h4 {
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.tech-stack {
+    list-style: none;
+    padding-left: 0;
+    margin-bottom: 15px;
+}
+
+.tech-stack li {
+    background-color: #0f2862;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 5px;
+    display: inline-block;
+    margin: 5px 5px 0 0;
+    font-size: 14px;
+}
+
+.project p {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #555;
+    margin-bottom: 15px;
+}
+
+.project-link {
+    display: inline-block;
+    padding: 10px 20px;
+    background: #0f2862;
+    border-radius: 5px;
+    font-size: 15px;
+    color: #00abf0;
+    text-decoration: none;
+    margin-left: 10px;
+    margin-right: 5px;
+    transition: 0.5s;
+}
+
+.project-link:hover {
+    background-color: #0f2862;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.project-buttons {
+    margin-top: 15px;
+}
+
+.btn {
+    display: inline-block;
+    text-decoration: none;
+    background: #0f2862;
+    color: #00abf0;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 15px;
+    margin-right: 10px;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #0f2862;
+}
+
+/* Certifications Section */
+.certifications {
+    background-color: #ffffff;
+    color: #0f2862;
+    padding: 50px 0;
+}
+
+.certifications h2 {
+    font-size: 36px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.certification {
+    background-color: #f5f5f5;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.certification h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #0f2862;
+}
+
+.certification p {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #555;
+}
+
+.certificate-buttons {
+    margin-top: 15px;
+    text-align: center;
+}
+
+.certificate-buttons .btn {
+    display: inline-block;
+    text-decoration: none;
+    background: #0f2862;
+    color: #00abf0;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 15px;
+    margin-right: 10px;
+    transition: background-color 0.3s ease;
+}
+
+.certificate-buttons .btn:hover {
+    background-color: #00abf0;
+    color: #fff;
+}
+
+
+
+
+
+
+/* Contact Section */
+.contact {
+    background-color: #0f2862;
+    color: white;
+    padding: 50px 0;
+}
+
+.contact h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.contact .personal-contact {
+    margin-bottom: 20px;
+    font-size: 20px;
+    text-align: center;
+}
+
+.contact .personal-contact p {
+    margin: 5px 0;
+}
+
+.contact .personal-contact a {
+    color: #00abf0;
+    text-decoration: none;
+}
+
+.contact .personal-contact a:hover {
+    text-decoration: underline;
+}
+
+.contact form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+}
+
+.contact label {
+    font-size: 18px;
+    text-align: left;
+    width: 80%;
+}
+
+.contact input, .contact textarea {
+    width: 80%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+}
+
+.contact button {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 70px;
+    height: 40px;
+    background: transparent;
+    border: 2px solid #fff;
+    font-size: 20px;
+    color: #00abf0;
+    text-decoration: none;
+    border-radius: 10px;
+    margin-left: 20px;
+    transition: 0.5s;
+}
+
+.contact button:hover {
+    background: #00abf0;
+    color: #fff;
+    border-color: #00abf0;
+    box-shadow: 0 0 10px #00abf0;
+}
+
+/* Footer */
+footer {
+    background-color: #0f2862;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+footer p {
+    font-size: 16px;
+}
