@@ -23,7 +23,7 @@ This is my personal portfolio website, designed and developed to showcase my pro
 
 ## Live Demo
 
-Check out the live version of the portfolio (dharshithaportfolio.netlify.app).
+Check out the live version of the portfolio [dharshithaportfolio.netlify.app](#).
 
 ---
 
@@ -31,5 +31,5 @@ Check out the live version of the portfolio (dharshithaportfolio.netlify.app).
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/portfolio.git
+   git clone https://github.com/Harshithad9/Portfolio.git
 
