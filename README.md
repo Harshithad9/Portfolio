@@ -21,12 +21,6 @@ This is my personal portfolio website, designed and developed to showcase my pro
 
 ---
 
-## Live Demo
-
-Check out the live version of the portfolio [dharshithaportfolio.netlify.app](#).
-
----
-
 ## Installation
 
 1. Clone the repository:
